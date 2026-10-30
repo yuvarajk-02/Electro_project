@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>AJM Electrical & Plumbing | All Types of Electrical, Plumbing & Construction Works</title>
+  <meta name="description"
+    content="AJM Electrical & Plumbing by A.J. Aravind. Electrical, plumbing and construction works. Message us on WhatsApp for a quick quote.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <!-- STEP 1: all colours, spacing and animation are in css/style.css -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+
+  <!-- STEP 2: HEADER. Logo on the left, menu links (nav) in the middle, burger button for phones. -->
+  <header>
+    <div class="wrap bar">
+      <a class="logo" href="#top">
+        <svg width="40" height="40" viewBox="0 0 48 48" aria-hidden="true">
+          <path d="M6 24 24 8l18 16" fill="none" stroke="#1b5fa8" stroke-width="4" stroke-linejoin="round"
+            stroke-linecap="round" />
+          <path d="M26 15l-7 11h6l-3 8 9-12h-6z" fill="#ffc21a" stroke="#e08a00" stroke-width="1" />
+          <rect x="14" y="36" width="20" height="8" rx="3" fill="#1b5fa8" />
+        </svg>
+        <span>AJM Electrical &amp; Plumbing<small>All types of construction works</small></span>
+      </a>
+      <!-- The menu. Shown as a row on laptops; on phones CSS hides it and the burger button opens it. -->
+      <nav id="nav">
+        <a class="n" href="#services">Services</a>
+        <a class="n" href="#work">Our work</a>
+        <a class="n" href="#how">How it works</a>
+        <a class="n" href="#contact">Contact</a>
+        <a class="n" href="#faq">FAQ</a>
+        <a class="btn btn-call" href="#quote" style="padding:10px 18px">Get free quote</a>
+      </nav>
+      <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav"
+        aria-label="Open menu"><span></span></button>
+    </div>
+  </header>
+
+
+
+  <main id="top">
+    <!-- STEP 3: HERO. The first big blue area people see. -->
+    <section class="hero">
+      <!-- Animated background: moving glow + floating electrical and plumbing icons (all made with CSS). -->
+      <div class="hbg" aria-hidden="true"><svg width="0" height="0" style="position:absolute">
+          <defs>
+            <symbol id="i-bolt" viewBox="0 0 24 24">
+              <path d="M13 2 4 14h7l-1 8 9-12h-7z" />
+            </symbol>
+            <symbol id="i-drop" viewBox="0 0 24 24">
+              <path d="M12 2C8 8 5 11.5 5 15a7 7 0 0 0 14 0c0-3.5-3-7-7-13z" />
+            </symbol>
+            <symbol id="i-bulb" viewBox="0 0 24 24">
+              <path d="M9 21h6M10 17h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3z" />
+            </symbol>
+            <symbol id="i-wrench" viewBox="0 0 24 24">
+              <path
+                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z" />
+            </symbol>
+            <symbol id="i-plug" viewBox="0 0 24 24">
+              <path d="M9 2v6M15 2v6M6 8h12v4a6 6 0 0 1-12 0zM12 18v4" />
+            </symbol>
+            <symbol id="i-pipe" viewBox="0 0 24 24">
+              <path d="M3 8h8a3 3 0 0 1 3 3v10M2 6v4M12 21h4M14 17h4M3 6h4" />
+            </symbol>
+          </defs>
+        </svg>
+        <div class="mesh"></div>
+        <div class="bgrid"></div><svg class="ic y" style="--x:4%;--s:46px;--d:22s;--l:0s;--r:-60deg">
+          <use href="#i-bolt" />
+        </svg><svg class="ic w" style="--x:12%;--s:34px;--d:18s;--l:-6s;--r:90deg">
+          <use href="#i-drop" />
+        </svg><svg class="ic " style="--x:21%;--s:56px;--d:26s;--l:-12s;--r:40deg">
+          <use href="#i-wrench" />
+        </svg><svg class="ic y" style="--x:30%;--s:38px;--d:20s;--l:-3s;--r:-90deg">
+          <use href="#i-bulb" />
+        </svg><svg class="ic " style="--x:39%;--s:30px;--d:17s;--l:-9s;--r:70deg">
+          <use href="#i-plug" />
+        </svg><svg class="ic w" style="--x:47%;--s:52px;--d:24s;--l:-15s;--r:-45deg">
+          <use href="#i-drop" />
+        </svg><svg class="ic y" style="--x:56%;--s:36px;--d:19s;--l:-1s;--r:60deg">
+          <use href="#i-bolt" />
+        </svg><svg class="ic " style="--x:64%;--s:48px;--d:25s;--l:-18s;--r:-70deg">
+          <use href="#i-pipe" />
+        </svg><svg class="ic y" style="--x:72%;--s:32px;--d:16s;--l:-7s;--r:100deg">
+          <use href="#i-bulb" />
+        </svg><svg class="ic " style="--x:80%;--s:54px;--d:23s;--l:-11s;--r:50deg">
+          <use href="#i-wrench" />
+        </svg><svg class="ic w" style="--x:88%;--s:36px;--d:18s;--l:-4s;--r:-80deg">
+          <use href="#i-drop" />
+        </svg><svg class="ic " style="--x:94%;--s:42px;--d:21s;--l:-14s;--r:45deg">
+          <use href="#i-plug" />
+        </svg>
+      </div>
+      <div class="wrap hero-grid">
+        <div>
+          <h1>Looking for the best <em>Electrician &amp; Plumber?</em> Call us now</h1>
+          <p>For any house problem, call AJM for electrical work, plumbing, repairs and construction. Send the problem
+            on WhatsApp and get a fast reply.</p>
+          <div class="cta-row">
+            <a class="btn btn-call" href="#quote">Get a free quote</a>
+            <a class="btn btn-ghost" href="tel:+918124052584">Call 81240 52584</a>
+          </div>
+        </div>
+        <!-- Logo picture on the right side of the hero. -->
+        <div class="artcard"><img src="images/logo.jpg"
+            alt="AJM Electrical and Plumbing logo: house with wrench, tap and pipes" width="520" height="520"></div>
+      </div>
+    </section>
+
+    <!-- STEP 4: SERVICES. Three cards: Electrical, Plumbing, Construction. -->
+    <section id="services">
+      <div class="wrap">
+        <div class="sec-head">
+          <h2>Everything for your home and site</h2>
+          <p>Electrical, plumbing and construction from one team, so you deal with one person.</p>
+        </div>
+        <div class="three">
+          <div class="panel e">
+            <h3>Electrical works</h3>
+            <ul>
+              <li>House wiring and rewiring</li>
+              <li>Fan, light and appliance fitting</li>
+              <li>MCB, panel and earthing</li>
+              <li>Inverter and motor connections</li>
+            </ul><a class="btn btn-line" href="#quote" data-pick="s1">Book an electrician</a>
+          </div>
+          <div class="panel p">
+            <h3>Plumbing works</h3>
+            <ul>
+              <li>Leak repair and pipe fitting</li>
+              <li>Bathroom and kitchen fixtures</li>
+              <li>Water tank and motor lines</li>
+              <li>Drain and blockage clearing</li>
+            </ul><a class="btn btn-line" href="#quote" data-pick="s2">Book a plumber</a>
+          </div>
+          <div class="panel c">
+            <h3>Construction works</h3>
+            <ul>
+              <li>New building and extensions</li>
+              <li>Renovation and repair work</li>
+              <li>Site work with electrical and plumbing included</li>
+            </ul><a class="btn btn-line" href="#quote" data-pick="s5">Discuss a project</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 5: RECENT WORK SLIDER. Empty boxes here are filled by js/script.js (drawGal). -->
+    <section class="alt" id="work">
+      <div class="wrap">
+        <div class="sec-head">
+          <h2>Our recent work</h2>
+          <p>The kinds of work we take on, from a single socket to a full site. Tap an image to see it larger.</p>
+        </div>
+        <div class="filters" id="filters" role="group" aria-label="Filter work"></div>
+        <div class="gal" id="gal" tabindex="0" aria-label="Work photos slider"></div>
+        <div class="sl-nav"><button type="button" id="prev" aria-label="Previous photos">&#8592;</button><button
+            type="button" id="next" aria-label="Next photos">&#8594;</button></div>
+      </div>
+    </section>
+    <div id="lb" role="dialog" aria-label="Photo viewer"><img alt=""></div>
+
+    <!-- STEP 6: QUOTE FORM. The visitor fills it and it opens WhatsApp with a ready message. -->
+    <section id="quote" class="alt" style="background:var(--bg)">
+      <div class="wrap qwrap">
+        <div>
+          <h2>Get your quote on WhatsApp</h2>
+          <p style="color:var(--muted)">Fill three fields and your message opens in WhatsApp, ready to send. Add a photo
+            of the problem in the chat for a more accurate price.</p>
+          <div class="steps" id="how">
+            <div>
+              <h3>Message us</h3>
+              <p>Send the problem and a photo.</p>
+            </div>
+            <div>
+              <h3>Get a price</h3>
+              <p>We confirm the cost range first.</p>
+            </div>
+            <div>
+              <h3>We visit</h3>
+              <p>A technician arrives in your time slot.</p>
+            </div>
+            <div>
+              <h3>Job done</h3>
+              <p>Work is tested and cleaned up.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <!-- The form itself. js/script.js reads these boxes by their id (name, area, msg). -->
+        <form class="composer" id="form" novalidate>
+          <h2>Tell us what's wrong</h2>
+          <p class="sub">Your message opens in WhatsApp.</p>
+          <div class="chips" role="group" aria-label="Type of work">
+            <input type="radio" name="svc" id="s1" value="Electrical work" checked><label for="s1">Electrical</label>
+            <input type="radio" name="svc" id="s2" value="Plumbing work"><label for="s2">Plumbing</label>
+            <input type="radio" name="svc" id="s5" value="Construction work"><label for="s5">Construction</label>
+            <input type="radio" name="svc" id="s4" value="Emergency"><label for="s4">Emergency</label>
+          </div>
+          <div class="row2">
+            <div class="field"><label for="name">Your name</label><input id="name" autocomplete="name"
+                placeholder="Your name"></div>
+            <div class="field"><label for="area">Area / locality</label><input id="area"
+                placeholder="Where is the job?"></div>
+          </div>
+          <div class="field"><label for="msg">What's the problem?</label><textarea id="msg" rows="3"
+              placeholder="e.g. Kitchen tap leaking under the sink"></textarea></div>
+          <div class="preview" aria-live="polite"><small>Preview of your WhatsApp message</small>
+            <div class="bubble" id="bubble"></div>
+          </div>
+          <button class="btn btn-wa" type="submit">Send on WhatsApp</button>
+          <p class="err" id="err" role="alert"></p>
+        </form>
+      </div>
+    </section>
+
+<!-- STEP 7: CONTACT -->
+<section id="contact">
+  <div class="wrap vcard">
+
+    <!-- Visiting card image -->
+    <div class="card">
+      <img
+        src="images/visiting_img.jpeg"
+        alt="A.J.M. Electrical and Plumbing visiting card"
+        class="visiting-card-img"
+      >
+    </div>
+
+    <!-- Contact details -->
+    <div class="vtext">
+      <h2>Talk to Aravind directly</h2>
+      <p>
+        Call or send a WhatsApp message. Share your location
+        and a photo, and you'll get a quote and a visit time.
+      </p>
+
+      <div class="cta-row">
+        <a class="btn btn-call" href="tel:+918124052584">
+          Call 81240 52584
+        </a>
+
+        <a class="btn btn-wa" href="https://wa.me/916380467953">
+          WhatsApp 63804 67953
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+    <!-- STEP 8: CUSTOMER REVIEWS. Review cards are shown here. The round + button (right side) opens the review box. Code: js/script.js PART 7. -->
+    <section class="alt" id="reviews">
+      <div class="wrap">
+        <div class="rv-top">
+          <div class="sec-head">
+            <h2>What customers say</h2>
+            <p>Real words from our customers. Used our service? Tap + to add your review.</p>
+          </div>
+          <button class="rv-add" id="rvOpen" type="button" aria-haspopup="dialog" aria-label="Add a review"><span class="rv-plus" aria-hidden="true">+</span><span class="rv-addtxt">Add review</span></button>
+        </div>
+        <div class="rv-summary" id="rvSummary"></div>
+        <div class="rv-list" id="rvList" aria-live="polite"></div>
+        <button class="btn btn-line rv-more" id="rvMore" type="button" hidden>Show more reviews</button>
+      </div>
+    </section>
+
+    <!-- REVIEW BOX (popup). Opens when the + button is pressed. -->
+    <div class="rv-modal" id="rvModal" hidden>
+      <div class="rv-backdrop" data-close></div>
+      <form class="rv-card rv-dialog" id="rvForm" role="dialog" aria-modal="true" aria-labelledby="rvTitle" novalidate>
+        <button class="rv-x" type="button" data-close aria-label="Close review box">&times;</button>
+        <h3 id="rvTitle">Write a review</h3>
+        <div class="field">
+          <span class="rv-label" id="rvRatingLabel">Your rating</span>
+          <div class="rv-stars-input" role="radiogroup" aria-labelledby="rvRatingLabel">
+            <input type="radio" name="rvRating" id="rs5" value="5"><label for="rs5" title="5 stars">&#9733;<span class="sr">5 stars</span></label><input type="radio" name="rvRating" id="rs4" value="4"><label for="rs4" title="4 stars">&#9733;<span class="sr">4 stars</span></label><input type="radio" name="rvRating" id="rs3" value="3"><label for="rs3" title="3 stars">&#9733;<span class="sr">3 stars</span></label><input type="radio" name="rvRating" id="rs2" value="2"><label for="rs2" title="2 stars">&#9733;<span class="sr">2 stars</span></label><input type="radio" name="rvRating" id="rs1" value="1"><label for="rs1" title="1 star">&#9733;<span class="sr">1 star</span></label>
+          </div>
+          <small class="rv-hint" id="rvRatingText">Tap a star to rate</small>
+        </div>
+        <div class="row2">
+          <div class="field"><label for="rvName">Your name</label><input id="rvName" maxlength="40" autocomplete="name" placeholder="Your name"></div>
+          <div class="field"><label for="rvService">Service (optional)</label>
+            <select id="rvService"><option value="">Not sure</option><option>Electrical</option><option>Plumbing</option><option>Construction</option></select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="rvText">Your review</label>
+          <textarea id="rvText" rows="4" maxlength="500" placeholder="How was the work and the service?"></textarea>
+          <small class="rv-hint"><span id="rvCount">0</span>/500</small>
+        </div>
+        <button class="btn btn-call" type="submit">Submit review</button>
+        <p class="err" id="rvErr" role="alert"></p>
+        <p class="rv-note">Reviews are saved in this browser only.</p>
+      </form>
+    </div>
+    <div class="rv-toast" id="rvToast" role="status"></div>
+
+    <!-- STEP 9: FAQ. Each question uses <details>, which opens and closes without any JavaScript. -->
+    <section id="faq">
+      <div class="wrap" style="max-width:760px">
+        <div class="sec-head">
+          <h2>Quick answers</h2>
+        </div>
+        <details>
+          <summary>How fast can you come?</summary>
+          <p>Emergencies are handled first. Standard jobs are booked same day or next day.</p>
+        </details>
+        <details>
+          <summary>Do you charge for the quote?</summary>
+          <p>No. Sending your message and photos on WhatsApp is free, and so is the estimate.</p>
+        </details>
+        <details>
+          <summary>Do you do construction work too?</summary>
+          <p>Yes. We take on new building, renovation and finishing, with electrical and plumbing included.</p>
+        </details>
+        <details>
+          <summary>Which areas do you cover?</summary>
+          <p>Tell us your locality in the message and we'll confirm right away.</p>
+        </details>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- STEP 10: FOOTER. -->
+  <footer>
+    <div class="wrap sf">
+      <div class="sf-brand"><b>AJM Electrical &amp; Plumbing</b>
+        <p>All type of Electrical &amp; Plumbing Works &middot; All type Construction Works</p>
+      </div>
+      <div class="sfl"><a href="tel:+918124052584">Call 81240 52584</a><a href="https://wa.me/916380467953">WhatsApp
+          63804 67953</a></div>
+      <small class="sf-copy">&copy; 2026 AJM Electrical &amp; Plumbing &middot; A.J. Aravind</small>
+    </div>
+  </footer>
+
+
+
+  <!-- STEP 11: JAVASCRIPT. Menu toggle, work slider and the WhatsApp form all live in js/script.js. -->
+  <script src="js/script.js"></script>
+
+  <!-- Round WhatsApp button fixed at the bottom-right corner. Change the number inside wa.me/ to change it. -->
+  <a class="wafab"
+    href="https://wa.me/916380467953?text=Hello%20AJM%20Electrical%20%26%20Plumbing%2C%20I%20would%20like%20to%20enquire%20about%20your%20services."
+    target="_blank" rel="noopener" aria-label="Enquire on WhatsApp"><svg viewBox="0 0 24 24" aria-hidden="true">
+      <path
+        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+    </svg></a>
+
+</body>
+
+</html>
